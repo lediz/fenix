@@ -1162,6 +1162,8 @@ if file("/usr/local/etc/muttrc")
 	cMuttrc := "/usr/local/etc/muttrc"
 elseif file("/etc/fenix/muttrc")
 	cMuttrc := "/etc/fenix/muttrc"
+elseif file("/usr/local/etc/fenix/muttrc")
+	cMuttrc := "/usr/local/etc/fenix/muttrc"
 endif
 
 if valtype(xTo) == "A"
